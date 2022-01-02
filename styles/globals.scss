@@ -1,0 +1,49 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-highlight-color: none;
+}
+
+
+/* darkmode */
+.darkMode {
+  
+}
+:root {
+  /* Your default theme */
+  --background: white;
+  --foreground: #121212;
+  --headerBgColor: white;
+  --planText: black;
+  --blueish: rgb(56, 56, 230);
+  --oppBlueish: orange;
+  --oppBlueishText: black;
+  --blueishText: white;
+  --menuBg: rgba(5, 5, 255, 0.39);
+}
+
+[data-theme='dark'] {
+  --background: #121212;
+  --foreground: white;
+  --headerBgColor: #121212;
+  --planText: white;
+  --blueish:orange;
+  --oppBlueish: rgb(56, 56, 230);
+  --blueishText: black;
+  --oppBlueishText: white;
+  --menuBg: rgba(255, 166, 0, 0.171);
+
+}
+

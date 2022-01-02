@@ -1,0 +1,103 @@
+.container{
+    width: 96%;
+    margin-left: 2%;
+    height: fit-content;
+    /* background-color: red; */
+    color: var(--planText);
+    background: var(--background);
+    margin-top: 50px;
+}
+.header{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 700;
+    margin-left: 5%;
+}
+.container form{
+    margin: auto;
+    /* background-color: blue; */
+    width: 30%;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--blueish);
+    box-shadow: 1px 1px 5px black;
+    border-radius: 20px;
+    padding: 5% 0;
+    outline: none;
+}
+.container form input{
+    width: 80%;
+    height: 3;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--blueish);
+    border-radius: 10px;
+    outline: none;
+    padding: 2%;
+}
+.container form .subject{
+    width: 80%;
+    border-radius: 10px;
+    height: 45px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--blueish);
+    padding: 2%;
+    outline: none;
+}
+.container form textarea{
+    width: 80%;
+    height: 100px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--blueish);
+    padding: 2%;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+}
+.container form button{
+    width: 50%;
+    height: 40px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: transparent;
+    padding: 2%;
+    color: var(--planText);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family:  'Montserrat', sans-serif;
+    border-radius: 10px;
+    background-color: var(--blueish);
+    color: var(--blueishText);
+}
+.container form button:hover{
+    background-color: var(--oppBlueish);
+    color: var(--oppBlueishText);
+}
+.container form button:active{
+    opacity: 0.2;
+}
+
+@media screen and (max-width:872px){
+    .container{
+        height: fit-content;
+        padding: 0 0 5% 5%;
+    }
+    .header{
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    .container form{
+        width: 80%;
+    }
+}
