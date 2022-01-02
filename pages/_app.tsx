@@ -4,7 +4,7 @@ import { ThemeProvider } from 'next-themes'
 
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <ThemeProvider forcedTheme={false} defaultTheme = 'system'>
+  return <ThemeProvider defaultTheme = 'system'>
   <Component {...pageProps} />
 </ThemeProvider>
 }
