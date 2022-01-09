@@ -6,10 +6,10 @@ const AboutSection = () => {
     return (
         <>
           <Head>
-        <style>
+        {/* <style>
           @import
           url(`https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap`);
-        </style>
+        </style> */}
       </Head>
             <section id="aboutCollinsRollins" data-aos="zoom-in" className={styles.abtContainer}>
         <h1 className={styles.header1}>About Me</h1>

@@ -13,10 +13,10 @@ const Projects = () => {
   return (
     <>
       <Head>
-        <style>
+        {/* <style>
           @import
           url(`https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap`);
-        </style>
+        </style> */}
       </Head>
       <section
         id="projectsComponent"

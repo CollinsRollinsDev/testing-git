@@ -64,13 +64,13 @@ const Header = () => {
           @import
           url(`https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Oswald:wght@500&display=swap`);
         </style> */}
-        <style>
+        {/* <style>
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 </style>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
-</style>
+</style> */}
       </Head>
       <section data-aos="fade-down" className={styles.container}>
         <section

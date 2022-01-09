@@ -10,10 +10,10 @@ const Skills = () => {
     return (
             <>
             <Head>
-                <style>
+                {/* <style>
                 @import
                 url(`https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap`);
-                </style>
+                </style> */}
             </Head>
              <section id="skillsComponents" data-aos="zoom-in" className={styles.container}>
                   <h4 className={styles.head4}>Skills</h4>

@@ -10,9 +10,9 @@ const Home: NextPage = () => {
         <title>Collins Rollins||Developer</title>
         <meta name="description" content="A COLLINS ROLLINS PORTFOLIO WEBSITE" />
         <link rel="icon" href="/cover3.png" />
-        <style>
+        {/* <style>
 @import url(`https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Oswald:wght@500&display=swap`);
-</style>
+</style> */}
       </Head>
       <LandingPage />
     </div>

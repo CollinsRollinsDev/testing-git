@@ -31,10 +31,10 @@ const Contact = () => {
     return (
        <>
           <Head>
-        <style>
+        {/* <style>
           @import
           url(`https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap`);
-        </style>
+        </style> */}
       </Head>
              <section id="contactComponents" data-aos="zoom-in" className={styles.container}>
              <h5 className={styles.header}>Contact Me</h5>

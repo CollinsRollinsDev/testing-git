@@ -39,14 +39,14 @@ const Intro = () => {
   return (
     <>
       <Head>
-        <style>
+        {/* <style>
           @import
           url(`https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap`);
         </style>
 
         <style>
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
-</style>
+</style> */}
       </Head>
       <section className={styles.container}>
         <section className={styles.left}>
