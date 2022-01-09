@@ -4,6 +4,7 @@
     height: 490px;
     margin-top: 90px;
     background: var(--background);
+    margin-bottom: 50px !important;
     display: flex;
     color: var(--foreground);
     justify-content: flex-start;

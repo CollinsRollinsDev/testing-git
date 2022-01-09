@@ -5,7 +5,7 @@
     /* background-color: red; */
     color: var(--planText);
     background: var(--background);
-    margin-top: 50px;
+    margin-top: 130px !important;
 }
 .header{
     font-family: 'Montserrat', sans-serif;

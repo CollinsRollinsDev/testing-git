@@ -3,11 +3,12 @@
     height: 300px;
     width: 96%;
     margin-left: 2%;
-    margin-top: 10px;
+    margin-top: 10px !important;
     background: var(--background);
     display: flex;
     flex-direction: column;
     color: var(--planText);
+    margin-bottom: 60px !important;
 }
 .head1{
     font-family: 'Montserrat', sans-serif;
@@ -61,6 +62,7 @@
         height: fit-content;
         padding: 0 0 5% 5%;
         width: 90%;
+        margin-bottom: 10px !important;
     }
 
     .head1{
