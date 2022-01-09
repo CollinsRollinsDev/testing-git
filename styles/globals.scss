@@ -33,6 +33,7 @@ a {
   --blueishText: white;
   --menuBg: rgba(5, 5, 255, 0.39);
   --bg-skills:transparent;
+  --skills-paragraph:rgb(56, 56, 230);
 }
 
 [data-theme='dark'] {
@@ -45,6 +46,7 @@ a {
   --blueishText: black;
   --oppBlueishText: white;
   --menuBg: rgba(255, 166, 0, 0.171);
-  --bg-skills:rgb(184, 182, 182);
+  --bg-skills:rgb(41, 28, 5);
+  --skills-paragraph:white;
 }
 
