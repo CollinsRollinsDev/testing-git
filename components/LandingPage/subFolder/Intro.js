@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import styles from "./Intro.module.css";
 import Head from "next/head";
 import Image from "next/image";
@@ -91,7 +92,7 @@ I thrive with an open heart and willing to learn,relearn and unlearn to the late
           </a>
 
           <div data-aos="fade-left" className={styles.links}>
-            <a href="https://www.linkedin.com/in/collins-rollins-82a56a214/" target="_blank">
+            <a href="https://www.linkedin.com/in/collins-rollins-82a56a214/" target="_blank" rel="noreferrer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -102,7 +103,7 @@ I thrive with an open heart and willing to learn,relearn and unlearn to the late
               </svg>
             </a>
 
-            <a href="https://twitter.com/CRollinsDev" target="_blank">
+            <a href="https://twitter.com/CRollinsDev" target="_blank" rel="noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
@@ -114,7 +115,7 @@ I thrive with an open heart and willing to learn,relearn and unlearn to the late
             </a>
 
 
-            <a href="https://github.com/CollinsRollinsDev" target="_blank">
+            <a href="https://github.com/CollinsRollinsDev" target="_blank" rel="noreferrer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -125,7 +126,7 @@ I thrive with an open heart and willing to learn,relearn and unlearn to the late
               </svg>
             </a>
 
-            <a href="https://www.facebook.com/collinsrollins.07" target="_blank">
+            <a href="https://www.facebook.com/collinsrollins.07" target="_blank" rel="noreferrer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"

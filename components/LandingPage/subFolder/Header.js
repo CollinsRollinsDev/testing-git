@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import styles from "./Header.module.css";
 import Head from "next/head";
 import AOS from "aos";
