@@ -7,6 +7,8 @@ import Header from "./subFolder/Header";
 import Intro from './subFolder/Intro';
 import Projects from './subFolder/Projects';
 import Skills from './subFolder/Skills';
+import React from "react";
+
 
 const LandingPage = () => {
     return (

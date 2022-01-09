@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import Head from "next/head";
 import styles from './AboutSection.module.css';
+import React from "react";
+
 
 const AboutSection = () => {
     return (

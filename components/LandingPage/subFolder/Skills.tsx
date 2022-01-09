@@ -4,6 +4,8 @@ import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Head from "next/head";
+import React from "react";
+
 
 const Skills = () => {
 

@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 import Link from "next/link";
+import React from "react";
 
 const Header = () => {
   const [mounted, setMounted] = useState(false);

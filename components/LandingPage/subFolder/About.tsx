@@ -2,6 +2,7 @@
 import styles from "./About.module.css";
 import { useEffect } from "react";
 import Head from "next/head";
+import React from "react";
 
 const About = () => {
 
