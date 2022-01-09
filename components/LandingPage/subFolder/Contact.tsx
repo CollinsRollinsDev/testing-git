@@ -8,11 +8,11 @@ const Contact = () => {
 
   const [btnMsg, setBtnMsg] = useState("Send to Collins");
 
-  const handleForm = async(e) => {
+  const handleForm = async(e:any) => {
       e.preventDefault();
       setBtnMsg("Sending please wait.....")
-    const formData = {}
-    Array.from(e.currentTarget.elements).forEach(field => {
+    const formData:any = {}
+    Array.from(e.currentTarget.elements).forEach((field:any) => {
       if(!field.name)  return;
         formData[field.name] = field.value
     })

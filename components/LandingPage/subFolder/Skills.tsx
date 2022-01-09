@@ -67,6 +67,21 @@ const Skills = () => {
 
                        <div className={styles.box}>
                        <Image
+                                    src="/ts.svg"
+                                    alt="Picture of typescript"
+                                    width="50px"
+                                    height="40px"
+                                    layout="fixed"
+                                    className={styles.icon}
+                                    // priority
+                                    quality={70}
+
+                                />
+                                <p>Typescript</p>
+                       </div>
+
+                       <div className={styles.box}>
+                       <Image
                                     src="/node.svg"
                                     alt="Picture of the author"
                                     width="50px"
@@ -78,6 +93,21 @@ const Skills = () => {
                                     
                                 />
                                 <p>Node.Js</p>
+                       </div>
+
+                       <div className={styles.box}>
+                       <Image
+                                    src="/express.svg"
+                                    alt="Picture of the author"
+                                    width="50px"
+                                    height="40px"
+                                    layout="fixed"
+                                    className={styles.icon}
+                                    // priority
+                                    quality={50}
+                                    
+                                />
+                                <p>Express.Js</p>
                        </div>
 
                        <div className={styles.box}>
@@ -137,6 +167,21 @@ const Skills = () => {
 
                                 />
                                 <p>Bootstrap</p>
+                       </div>
+
+                       <div className={styles.box}>
+                       <Image
+                                    src="/sass.svg"
+                                    alt="Picture of the author"
+                                    width="50px"
+                                    height="40px"
+                                    layout="fixed"
+                                    className={styles.icon}
+                                    // priority
+                                    quality={50}
+
+                                />
+                                <p>SASS/SCSS</p>
                        </div>
 
                        <div className={styles.box}>

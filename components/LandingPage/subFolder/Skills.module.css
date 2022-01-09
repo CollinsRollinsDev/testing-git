@@ -16,7 +16,8 @@
     /* margin-bottom: 20px; */
 }
 .skillsBox{
-    height: 450px;
+    height: fit-content;
+    padding: 20px 0;
     width: 100%;
     padding: 0 2.5%;
     /* background-color: blue; */
@@ -24,6 +25,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-evenly;
     align-items: center;
+    grid-gap: 40px;
     place-items: center;
 
 }

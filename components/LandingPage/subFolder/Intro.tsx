@@ -12,7 +12,7 @@ const Intro = () => {
   const [refresh, setRefresh] = useState();
 
   const write = async () => {
-    const process = await (
+    const process:any = await (
       <Typical
         loop={Infinity}
         wrapper="b"
@@ -81,7 +81,7 @@ my biggest dream.
             </p>
             <p>
             I am also a voracious learner. When I'm not coding I'm either busy learning new technologies or improving on existing ways to solving problems.
-I thrive with an open heart and willing to learn,relearn and unlearn to the latest in standards.
+I thrive with an open heart and willing to learn, relearn and unlearn to the latest in standards.
             </p>
           </div>
 
