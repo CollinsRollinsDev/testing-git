@@ -33,6 +33,7 @@ const Header = () => {
 
   const mMenu = (
     <section className={styles.mMenu}>
+      <div onClick={removeMenu} className={styles.menuClickout}></div>
       <section className={styles.menuHolder}>
         <Link href="/" passHref>
           <div onClick={removeMenu}>Home</div>
