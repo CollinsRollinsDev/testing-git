@@ -11,7 +11,7 @@ import React from "react";
 
 const LandingPage = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.landingContainer}>
       <Header />
       <Intro />
       <About />

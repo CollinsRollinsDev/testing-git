@@ -1,7 +1,10 @@
-.container{
+.landingContainer{
     box-sizing: border-box;
-    max-width: 100%;
+    width: 100% !important;
+    height: 100px;
     height: fit-content;
     background-color: var(--background);
+    /* background-color: red; */
+    position: relative;
 }
 

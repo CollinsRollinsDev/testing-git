@@ -1,7 +1,7 @@
 .container{
     /* background-color: red; */
     width: 100%;
-    height: 490px;
+    height: fit-content;
     margin-top: 90px;
     background: var(--background);
     margin-bottom: 50px !important;
