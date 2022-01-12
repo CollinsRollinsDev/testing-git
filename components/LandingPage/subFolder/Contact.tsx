@@ -37,7 +37,7 @@ const Contact = () => {
           url(`https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap`);
         </style> */}
       </Head>
-             <section id="contactComponents" data-aos="zoom-in" className={styles.container}>
+             <section id="contactComponents" data-aos="fade-up" className={styles.container}>
              <h5 className={styles.header}>Contact Me</h5>
              <form onSubmit={handleForm}>
                  <input type="text" name="name" placeholder="Name" />
