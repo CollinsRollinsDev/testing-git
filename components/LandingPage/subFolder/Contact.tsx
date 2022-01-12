@@ -7,7 +7,7 @@ import React from "react";
 
 const Contact = () => {
 
-  const [btnMsg, setBtnMsg] = useState("Send to Collins");
+  const [btnMsg, setBtnMsg] = useState<string>("Send to Collins");
 
   const handleForm = async(e:any) => {
       e.preventDefault();

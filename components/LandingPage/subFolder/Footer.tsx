@@ -67,7 +67,7 @@ const Footer = () => {
 
         </section>
         <section className={styles.other}>
-        ©CollinsRollins
+        ©CollinsRollins 2022
         </section>
       </section>
     </>

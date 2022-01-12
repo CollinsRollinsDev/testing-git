@@ -21,7 +21,7 @@ const Projects = () => {
       </Head>
       <section
         id="projectsComponent"
-        data-aos="zoom-in"
+        data-aos="fade-up"
         className={styles.container}
       >
         <h2 className={styles.head2}>Projects</h2>

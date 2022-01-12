@@ -17,7 +17,7 @@ const Skills = () => {
                 url(`https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap`);
                 </style> */}
             </Head>
-             <section id="skillsComponents" data-aos="zoom-in" className={styles.container}>
+             <section id="skillsComponents" data-aos="fade-up" className={styles.container}>
                   <h4 className={styles.head4}>Skills</h4>
                     <section className={styles.skillsBox}>
                        <div id="sizing" className={styles.box}>
