@@ -14,7 +14,7 @@ const Footer = () => {
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 </style> */}
     </Head>
-      <section className={styles.container}>
+      <section className={styles.footerContainer}>
         <section
         //   data-aos="fade-right"
           className={styles.credit}
