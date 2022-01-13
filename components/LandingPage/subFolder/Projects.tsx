@@ -26,7 +26,7 @@ const Projects = ({isIPhone}:Incoming) => {
       <section
         id="projectsComponent"
         data-aos="fade-up"
-        className={styles.container}
+        className={styles.projectContainer}
       >
         <h2 className={styles.head2}>Projects</h2>
         <section className={!isIPhone ? styles.projSec : styles.projSecIphone}>

@@ -1,4 +1,4 @@
-/* .abtContainer{
+.abtContainer{
     min-height: 400px;
     width: 96%;
     margin-left: 2%;
@@ -77,19 +77,19 @@
         width: 180px;
         font-size: 12px;
     }
-} */
+}
 
 
 
 
-
+/* 
 
 .abtContainer{
-    /* background-color: red; */
     height: 300px;
     width: 96%;
     margin-left: 2%;
     margin-top: 10px;
+    margin-bottom: 30px !important;
     background: var(--background);
     display: flex;
     flex-direction: column;
@@ -130,7 +130,7 @@
     box-shadow: 1px 1px 5px black;
     color: var(--blueishText);
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 100px !important;
     cursor: pointer;
     font-style:italic;
 }
@@ -160,4 +160,4 @@
         width: 180px;
         font-size: 12px;
     }
-}
+} */

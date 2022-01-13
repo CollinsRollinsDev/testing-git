@@ -3,9 +3,6 @@ const nodemailer = require("nodemailer");
 require('dotenv').config();
 const authenticate = process.env.AuthPass
 
-// mail.setApiKey(process.env.SENDGRIDKey);
-// mail.setApiKey("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");
-
 const notifyCollinsRollins = async(name: any, email: any, subject: any, message: any, res: { status: (arg0: number) => { (): any; new(): any; json: { (arg0: { success: boolean; message: string; }): void; new(): any; }; }; }) => {
  try {
   const smtpTransport = nodemailer.createTransport({

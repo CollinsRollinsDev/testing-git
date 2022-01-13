@@ -1,10 +1,10 @@
-.container{
+.projectContainer{
     height: fit-content;
     width: 96%;
     color: var(--planText);
     margin-left: 2%;
     background: var(--background);
-    /* background-color: red; */
+    /* background-color: red !important; */
 }
 .head2{
     font-family: 'Montserrat', sans-serif;
@@ -124,7 +124,7 @@
 
 
 @media screen and (max-width:872px){
-    .container{
+    .projectContainer{
         height: fit-content;
         margin-top: 40px;
         padding: 0 0 5% 5%;
