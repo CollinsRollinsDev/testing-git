@@ -13,7 +13,7 @@
 }
 .head1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 26px;
+    font-size: 26px !important;
     color: var(--planText);
     font-style: italic;
     margin-top: 30px;
@@ -25,9 +25,9 @@
     padding: 0 0 0 5%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 16px !important;
     margin-top: 20px;
-    line-height: 25px;
+    line-height: 25px !important;
 }
 .cvBtn{
     width: 25%;
@@ -60,18 +60,18 @@
 
 @media screen and (max-width:872px){
     .abtContainer{
-        height: fit-content;
+        height: fit-content !important;
         padding: 0 0 5% 5%;
         width: 90%;
         margin-bottom: 10px !important;
     }
 
     .head1{
-        font-size: 22px;
+        font-size: 22px !important;
     }
     .narration{
-        font-size: 13px;
-        line-height: 22px;
+        font-size: 13px !important;
+        line-height: 22px !important;
     }
     .cvBtn{
         width: 180px;
