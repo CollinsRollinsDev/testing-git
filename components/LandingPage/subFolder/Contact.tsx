@@ -5,7 +5,11 @@ import { useEffect, useState } from "react";
 import Head from "next/head";
 import React from "react";
 
-const Contact = () => {
+interface Incoming{
+  isIPhone : any
+}
+
+const Contact = ({isIPhone}:Incoming) => {
 
   const [btnMsg, setBtnMsg] = useState<string>("Send to Collins");
 
@@ -39,7 +43,7 @@ const Contact = () => {
       </Head>
              <section id="contactComponents" data-aos="fade-up" className={styles.container}>
              <h5 className={styles.header}>Contact Me</h5>
-             <form onSubmit={handleForm}>
+             <form className={isIPhone ? styles.iphoneStyle : ''} onSubmit={handleForm}>
                  <input type="text" name="name" placeholder="Name" />
                  <input type="email" name="email" placeholder="Email" />
                  <input type="text" name="subject" placeholder="Subject" className={styles.subject} />

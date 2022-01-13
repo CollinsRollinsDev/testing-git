@@ -37,7 +37,7 @@ const LandingPage = () => {
       <About />
       <Projects isIPhone={isIPhone} />
       <Skills />
-      <Contact />
+      <Contact isIPhone={isIPhone} />
       <Footer />
     </section>
   );

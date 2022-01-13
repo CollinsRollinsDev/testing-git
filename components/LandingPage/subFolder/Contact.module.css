@@ -32,6 +32,13 @@
     padding: 5% 0;
     outline: none;
 }
+.iphoneStyle{
+
+}
+.iphoneStyle input{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
 .container form input{
     width: 80%;
     height: 3;
@@ -52,6 +59,10 @@
     padding: 2%;
     outline: none;
 }
+.iphoneStyle textarea{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
 .container form textarea{
     width: 80%;
     height: 100px;
@@ -62,6 +73,10 @@
     border-radius: 10px;
     font-size: 20px;
     outline: none;
+}
+.iphoneStyle button{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
 }
 .container form button{
     width: 50%;
