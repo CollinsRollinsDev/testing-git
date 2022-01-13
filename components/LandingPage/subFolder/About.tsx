@@ -18,7 +18,7 @@ const About = () => {
         <h1 className={styles.head1}>About Me</h1>
         <div className={styles.narration}>
           <p>
-            I am a well-experienced MERN_STACK_WEB_DEVELOPER with over two years of experience. I am hail from Nigeria, West
+            I am a well experienced MERN_STACK_WEB_DEVELOPER with over two years of experience. I am hail from Nigeria, West
             Africa. I am a guy completely driven by passion, especially in the
             IT industries and these passions led me to learn to code. Coding is
             an addiction for me and I am not curing myself off it anytime soon.
