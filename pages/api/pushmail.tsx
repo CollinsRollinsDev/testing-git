@@ -27,7 +27,6 @@ mail.setApiKey(key);
     //   path:'./public/cover3.png',
     // content:'',
     // }]
-    // html:''
   }
   const responseFromSendgrid = await mail.send(data);
   if(responseFromSendgrid[0].statusCode !== 202){
