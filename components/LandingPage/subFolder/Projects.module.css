@@ -96,7 +96,7 @@
     padding: 4%;
     text-align: center;
 }
-.view, .container a{
+.view, .projectContainer a{
     height: 50px;
     width: 100%;
     border-bottom-left-radius: 20px;

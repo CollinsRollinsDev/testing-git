@@ -27,10 +27,12 @@ const Contact = ({isIPhone}:Incoming) => {
         body: JSON.stringify(formData)
       });
      const data = await res.json();
-     if(data){
-      alert(data.message);
-      setBtnMsg("Thank you! Message Sent!")
+     if(data.success !== true){
+      alert(data.message)
+     return;
      }
+     alert(data.message);
+     setBtnMsg("Thank you! Message Sent!")
   }
 
     return (
