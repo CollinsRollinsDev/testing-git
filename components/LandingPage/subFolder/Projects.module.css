@@ -25,6 +25,26 @@
     align-items: center;
     column-gap: 20px;
 }
+.projSecIphone{
+    margin-top: 20px;
+    width: 98%;
+    margin-left: 2%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* column-gap: 20px; */
+}
+.projSecIphone section{
+    height:fit-content;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
 .projSec section{
     height:fit-content;
     width: 100%;
@@ -113,13 +133,23 @@
     .head2{
         font-size: 22px;
     }
+    .projSecIphone{
+        flex-direction: column;
+        justify-content: flex-start;
+        /* row-gap: 20px; */
+    }
     .projSec{
         flex-direction: column;
         justify-content: flex-start;
         row-gap: 20px;
     }
-    .projSec section{
+    .projSec section, .projSecIphone section{
         width: 50%;
+    }
+    /* TODO= Configured for iphone. */
+    .projSecIphone section{
+        margin-top: 20px !important;
+        margin-bottom: 10px !important;
     }
 
     .imgDiv{

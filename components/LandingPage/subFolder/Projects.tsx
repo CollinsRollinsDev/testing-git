@@ -6,7 +6,11 @@ import Image from "next/image";
 import React from "react";
 import Head from "next/head";
 
-const Projects = () => {
+interface Incoming{
+  isIPhone : any
+}
+
+const Projects = ({isIPhone}:Incoming) => {
   // useEffect(() => {
   //     AOS.init({ duration: 1500 });
   //   }, []);
@@ -25,7 +29,7 @@ const Projects = () => {
         className={styles.container}
       >
         <h2 className={styles.head2}>Projects</h2>
-        <section className={styles.projSec}>
+        <section className={!isIPhone ? styles.projSec : styles.projSecIphone}>
           <section>
             <div className={styles.imgDiv}>
               <Image
