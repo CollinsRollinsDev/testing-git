@@ -11,8 +11,8 @@ const About = () => {
         <div className={styles.narration}>
           <p>
           I am a MERN_STACK_WEB_DEVELOPER with over two years of experience. I am hail from Nigeria, West
-            Africa. Completely driven by passion, especially in the
-            IT industries, I learn to code. Coding is
+            Africa. I am a guy completely driven by passion, especially in the
+            IT industries, and this passion has pushed me to learn to code. Coding is
             an addiction for me and I am not curing myself off it anytime soon.
             It is always a thing of joy for me to use my skills to solve the
             problems of others, as well as mine. Other hobbies of mine include Travelling,
