@@ -142,11 +142,10 @@ I thrive with an open heart and willing to learn, relearn and unlearn to the lat
         <section className={styles.right}>
           <div data-aos="fade-right" className={styles.imgDiv}>
             <Image
-              //   loader={myLoader}
               src="/webpic2.png"
               alt=""
               layout="fill"
-              // priority
+              priority
             />
           </div>
         </section>
