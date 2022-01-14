@@ -20,7 +20,7 @@ const About = () => {
         
           </p>
         </div>
-      <a href="https://drive.google.com/uc?export=download&id=1QWSGYBiZ6Nf--L_RcvLTGa08MHAf5zmo">
+      <a href="/Collins_Rollins_Resume.pdf" download>
         <button className={styles.cvBtn}>Download My Resume</button>
         </a>
       </section>
