@@ -19,7 +19,8 @@ mail.setApiKey(key);
     subject: `Message from your Portfolio with subject: ${subject}`,
     text: `Hi Collins Rollins, ${name} with the email ${email} just contacted you via your porfolio website. Below are the message in quote.
        `,
-    html: `<body><h3>Hello there,</h3><p>${message}</p><br></br><center>
+    html: `<body><div>Hi Collins Rollins, ${name} with the email <a href = "mailto:${email}">${email}</a> just contacted you via your porfolio website. Below are the message in quote.
+    </div><br/><h3>Hello there,</h3><p>${message}</p><br></br><center>
       <img src="https://www.owupress.com/uploads/2020/03/1583237252-3dffe754-10d2-44ea-870c-1bacc7b28d0b-150x150.jpeg" alt="Signature..." /></center>
     </body>`,
     // attachments: [{
