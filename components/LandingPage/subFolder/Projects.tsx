@@ -5,12 +5,13 @@ import { useEffect } from "react";
 import Image from "next/image";
 import React from "react";
 import Head from "next/head";
+import EachProject from "./EachProject";
 
-interface Incoming{
-  isIPhone : any
+interface Incoming {
+  isIPhone: any;
 }
 
-const Projects = ({isIPhone}:Incoming) => {
+const Projects = ({ isIPhone }: Incoming) => {
   // useEffect(() => {
   //     AOS.init({ duration: 1500 });
   //   }, []);
@@ -30,154 +31,83 @@ const Projects = ({isIPhone}:Incoming) => {
       >
         <h2 className={styles.head2}>Projects</h2>
         <section className={!isIPhone ? styles.projSec : styles.projSecIphone}>
-          <section>
-            <div className={styles.imgDiv}>
-              <Image
-                //   loader={myLoader}
-                src="/proj1.png"
-                alt="Wifispace Landing Page Image"
-                layout="fill"
-                priority
-              />
-            </div>
-            <div className={styles.overview}>
-              <div className={styles.head}>
-                <h3>WIFI SERVICES WEBSITE DEVELOPMENT</h3>
-              </div>
-              <div className={styles.content}>
-                <p>
-                  I built this Full-Stack website using Next.Js (a framework of
+          <EachProject
+            imgSrc="/proj1.png"
+            imgAlt="Wifispace Landing Page Image"
+            title="WIFI SERVICES WEBSITE DEVELOPMENT"
+            description={`I built this Full-Stack website using Next.Js (a framework of
                   React.js) and Redux for state managements. It is very mobile
-                  responsive and overall smooth users-experience.
-                </p>
-              </div>
-            </div>
-            <a href="https://smarttechs.com.ng">
-              <div className={styles.view}>
-                <button>View</button>
-              </div>
-            </a>
-          </section>
+                  responsive and overall smooth users-experience.`}
+            linkToSite={`https://smarttechs.com.ng`}
+          />
 
-          <section>
-            <div className={styles.imgDiv}>
-              <Image
-                //   loader={myLoader}
-                src="/proj2.png"
-                alt="Trade Botting Landing Page Image"
-                layout="fill"
-                priority
-              />
-            </div>
-            <div className={styles.overview}>
-              <div className={styles.head}>
-                <h3>TRADING BOT & PREDICTION WEBSITE</h3>
-              </div>
-              <div className={styles.content}>
-                <p>
-                  I built this Front-end website using Next.Js and Redux for
-                  state managements. I also made API calls to coingecko and
-                  manipulated the date into complex calculations, which enables
-                  the bot predict crypto prices in realtime. It is very mobile
-                  responsive and overall smooth users-experience.
-                </p>
-              </div>
-            </div>
-            <a href="https://tradebotting.vercel.app">
-              <div className={styles.view}>
-                <button>View</button>
-              </div>
-            </a>
-          </section>
-{/* 
-          <section>
-            <div className={styles.imgDiv}>
-              <Image
-                src="/proj3.png"
-                alt="School Backyard Image"
-                layout="fill"
-                priority
-              />
-            </div>
-            <div className={styles.overview}>
-              <div className={styles.head}>
-                <h3>EDUCATIONAL WEBSITE DEVELOPMENT</h3>
-              </div>
-              <div className={styles.content}>
-                <p>
-                  I built this Full-Stack website using Html, Css, Javascript,
-                  Node.js/Express, MongoDb and Strapi CMS. It is very mobile
-                  responsive and overall smooth users-experience. It is also
-                  very fast.
-                </p>
-              </div>
-            </div>
-            <div className={styles.view}>
-              <a href="https://schoolbackyard.vercel.app">
-              <button>View</button>
-              </a>
-            </div>
-          </section> */}
+          <EachProject
+            imgSrc="/proj2.png"
+            imgAlt="Trade Botting Landing Page Image"
+            title="TRADING BOT & PREDICTION WEBSITE"
+            description={` I built this Front-end website using Next.Js and Redux for
+            state managements. I also made API calls to coingecko and
+            manipulated the date into complex calculations, which enables
+            the bot predict crypto prices in realtime. It is very mobile
+            responsive and overall smooth users-experience.`}
+            linkToSite={`https://tradebotting.vercel.app`}
+          />
 
-          <section>
-            <div className={styles.imgDiv}>
-              <Image
-                //   loader={myLoader}
-                src="/scorelite.png"
-                alt="Collins Rollins Love Status"
-                layout="fill"
-                priority
-              />
-            </div>
-            <div className={styles.overview}>
-              <div className={styles.head}>
-                <h3>FOOTBALL HIGHLIGHTS WEBSITE</h3>
-              </div>
-              <div className={styles.content}>
-                <p>
-                  I built this Front-end website using HTML, CSS and JAVASCRIPT.
-                  It makes AJAX request to some API and retrieve data, which is
-                  then used to display the video of the selected match. It is
-                  very mobile responsive and overall smooth users-experience.
-                </p>
-              </div>
-            </div>
-            <a href="https://scorelite.netlify.app/">
-              <div className={styles.view}>
-                <button>View</button>
-              </div>
-            </a>
-          </section>
+          <EachProject
+            imgSrc="/scorelite.png"
+            imgAlt="Collins Rollins Site"
+            title="FOOTBALL HIGHLIGHTS WEBSITE"
+            description={`I built this Front-end website using HTML, CSS and JAVASCRIPT.
+            It makes AJAX request to some API and retrieve data, which is
+            then used to display the video of the selected match. It is
+            very mobile responsive and overall smooth users-experience.`}
+            linkToSite={`https://scorelite.netlify.app/`}
+          />
 
-          <section>
-            <div className={styles.imgDiv}>
-              <Image
-                //   loader={myLoader}
-                src="/chatloop.png"
-                alt="Chatloop image"
-                layout="fill"
-              />
-            </div>
-            <div className={styles.overview}>
-              <div className={styles.head}>
-                <h3>CHAT APPLICATION WEBSITE</h3>
-              </div>
-              <div className={styles.content}>
-                <p>
-                  I built this Front-end website using Socket.io, Next.js and very handy
-                  React.Js libraries for Front-end and Node/Express.Js for the
-                  server-side. It works similar to Whatsapp. I made use of
-                  React-Context and Redux for state Management. It is very
-                  mobile responsive and overall smooth users-experience.
-                </p>
-              </div>
-            </div>
-            <a href="https://chatloop.vercel.app/">
-            <div className={styles.view}>
-              <button>View</button>
-            </div>
-            </a>
-          </section>
+          <EachProject
+            imgSrc="/chatloop.png"
+            imgAlt="Chatloop image"
+            title="CHAT APPLICATION WEBSITE"
+            description={` I built this Front-end website using Socket.io, Next.js and
+            very handy React.Js libraries for Front-end and
+            Node/Express.Js for the server-side. It works similar to
+            Whatsapp. I made use of React-Context and Redux for state
+            Management. It is very mobile responsive and overall smooth
+            users-experience.`}
+            linkToSite={`https://chatloop.vercel.app/`}
+          />
+
+          <EachProject
+            imgSrc="/crsearch.png"
+            imgAlt="Rollins Search Image"
+            title="My Working Google Clone Website"
+            description={`I built this website using a react js framework (NextJs) and aded a bit of backend to fetch the users' request and filter the result for the top priority. It uses Google Api, this means all results returned are exactly what a google search will five you. Also added images, videos and news search to it. It is as well mobile responsive!`}
+            linkToSite={`https://rollins-search.vercel.app/search`}
+          />
+
+          <EachProject
+            imgSrc="/assignment.png"
+            imgAlt="Lyft Clone!!"
+            title="My Lyft Clone Website!!!"
+            description={`This landing page was built using react js under 24 hours and with such limited tinme, you need to see the UI of the site! This was as a result of an assignment given to me during my early days of learning react. The site is a direct clone of https://lyft.com and it is frontend only and responsive.`}
+            linkToSite={`https://rollins-assignment.vercel.app/`}
+          />
+
+          <EachProject
+            imgSrc="/truevine-port.png"
+            imgAlt="truevine christian centre!!"
+            title="A CHURCH WEBSITE!!!"
+            description={`This is one of my early projects as a web developer. I Built this again using NextJs for both frontend and backend, Redux for state management, GraphCMS for headless cms, graphQl for api calls and hosted it on vercel. `}
+            linkToSite={`https://truevine.vercel.app/`}
+          />
+
+          <EachProject
+            imgSrc="/crudstack.png"
+            imgAlt="crudstack from image collins rollins!!"
+            title="A Complete NodeJs(Backend) CRUD/Authentication Web App!"
+            description={`I built this using vanilla React.Js for frontend and Nodejs(Express) for the backend. Features includes, creating account in MongoDB database with passwords being perfectly encrypted, log in securely using jwt tokens and cookies, update existing user details, change user password, delete a user, logout, protected routes (You can't access some routes if not logged in) and darkmode! Despite this is a fully intended backend application, I am very curious about designs; so the UI is not left out!`}
+            linkToSite={`https://crudstack-client-side.vercel.app/`}
+          />
         </section>
       </section>
     </>

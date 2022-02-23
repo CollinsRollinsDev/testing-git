@@ -20,8 +20,10 @@
     width: 98%;
     margin-left: 2%;
     height: fit-content;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:50px 20px;
+    justify-items: center;
     align-items: center;
     column-gap: 20px;
 }
@@ -30,8 +32,10 @@
     width: 98%;
     margin-left: 2%;
     height: fit-content;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:50px 20px;
+    justify-items: center;
     align-items: center;
     /* column-gap: 20px; */
 }
@@ -139,12 +143,15 @@
         /* row-gap: 20px; */
     }
     .projSec{
-        flex-direction: column;
-        justify-content: flex-start;
-        row-gap: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap:50px 20px;
+        justify-items: center;
+        align-items: center;
     }
     .projSec section, .projSecIphone section{
-        width: 50%;
+        width: 70%;
+        height: fit-content !important;
     }
     /* TODO= Configured for iphone. */
     .projSecIphone section{
@@ -156,7 +163,8 @@
         height: 100px;
     }
     .overview{
-        height: 250px;
+        /* height: 250px; */
+        height: fit-content !important;
     }
     .head{
         font-size: 14px;
