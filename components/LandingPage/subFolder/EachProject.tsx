@@ -16,6 +16,7 @@ const EachProject = ({imgSrc, imgAlt, title, description, linkToSite}) => {
       />
     </div>
     <div className={styles.overview}>
+      {/* <p>Github Repo Link: frontend</p> */}
       <div className={styles.head}>
         <h3>{title}</h3>
       </div>

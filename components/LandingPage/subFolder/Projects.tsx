@@ -38,7 +38,7 @@ const Projects = ({ isIPhone }: Incoming) => {
             description={`I built this Full-Stack website using Next.Js (a framework of
                   React.js) and Redux for state managements. It is very mobile
                   responsive and overall smooth users-experience.`}
-            linkToSite={`https://smarttechs.com.ng`}
+            linkToSite={`https://www.wifibase.co`}
           />
 
           <EachProject
@@ -51,6 +51,14 @@ const Projects = ({ isIPhone }: Incoming) => {
             the bot predict crypto prices in realtime. It is very mobile
             responsive and overall smooth users-experience.`}
             linkToSite={`https://tradebotting.vercel.app`}
+          />
+
+          <EachProject
+            imgSrc="/crsearch.png"
+            imgAlt="Rollins Search Image"
+            title="My Working Google Clone Website"
+            description={`I built this website using a react js framework (NextJs) with Typescript and added a bit of backend to fetch the users' request and filter the result for the top priority. It uses Google Api, this means all results returned are exactly what a google search will give you. Also added images, videos and news search to it. It is as well mobile responsive!`}
+            linkToSite={`https://rollins-search.vercel.app/search`}
           />
 
           <EachProject
@@ -78,18 +86,10 @@ const Projects = ({ isIPhone }: Incoming) => {
           />
 
           <EachProject
-            imgSrc="/crsearch.png"
-            imgAlt="Rollins Search Image"
-            title="My Working Google Clone Website"
-            description={`I built this website using a react js framework (NextJs) and aded a bit of backend to fetch the users' request and filter the result for the top priority. It uses Google Api, this means all results returned are exactly what a google search will five you. Also added images, videos and news search to it. It is as well mobile responsive!`}
-            linkToSite={`https://rollins-search.vercel.app/search`}
-          />
-
-          <EachProject
             imgSrc="/assignment.png"
             imgAlt="Lyft Clone!!"
             title="My Lyft Clone Website!!!"
-            description={`This landing page was built using react js under 24 hours and with such limited tinme, you need to see the UI of the site! This was as a result of an assignment given to me during my early days of learning react. The site is a direct clone of https://lyft.com and it is frontend only and responsive.`}
+            description={`This landing page was built using react js under 24 hours and with such limited time, you need to see the UI of the site! This was as a result of an assignment given to me during my early days of learning react. The site is a direct clone of https://lyft.com and it is frontend only and responsive.`}
             linkToSite={`https://rollins-assignment.vercel.app/`}
           />
 
@@ -97,7 +97,7 @@ const Projects = ({ isIPhone }: Incoming) => {
             imgSrc="/truevine-port.png"
             imgAlt="truevine christian centre!!"
             title="A CHURCH WEBSITE!!!"
-            description={`This is one of my early projects as a web developer. I Built this again using NextJs for both frontend and backend, Redux for state management, GraphCMS for headless cms, graphQl for api calls and hosted it on vercel. `}
+            description={`This is one of my early projects as a web developer. I Built this again using NextJs with Typescript for both frontend and backend, Redux for state management, GraphCMS for headless cms, graphQl for api calls and hosted it on vercel. `}
             linkToSite={`https://truevine.vercel.app/`}
           />
 
@@ -105,7 +105,7 @@ const Projects = ({ isIPhone }: Incoming) => {
             imgSrc="/crudstack.png"
             imgAlt="crudstack from image collins rollins!!"
             title="A Complete NodeJs(Backend) CRUD/Authentication Web App!"
-            description={`I built this using vanilla React.Js for frontend and Nodejs(Express) for the backend. Features includes, creating account in MongoDB database with passwords being perfectly encrypted, log in securely using jwt tokens and cookies, update existing user details, change user password, delete a user, logout, protected routes (You can't access some routes if not logged in) and darkmode! Despite this is a fully intended backend application, I am very curious about designs; so the UI is not left out!`}
+            description={`I built this using vanilla React.Js with Typescript for frontend and Nodejs(Express) for the backend. Features includes, creating account in MongoDB database with passwords being perfectly encrypted, log in securely using jwt tokens and cookies, update existing user details, change user password, delete a user, logout, protected routes (You can't access some routes if not logged in) and darkmode! Despite this is a fully intended backend application, I am very curious about designs; so the UI is not left out!`}
             linkToSite={`https://crudstack-client-side.vercel.app/`}
           />
         </section>
