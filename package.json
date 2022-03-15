@@ -6,9 +6,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postbuild":"next-sitemap"
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
+    "@bradgarropy/next-seo": "^1.2.0",
     "@sendgrid/mail": "^7.6.0",
     "aos": "^2.3.4",
     "dotenv": "^10.0.0",
