@@ -16,7 +16,7 @@ const AboutSection = () => {
             <section id="aboutCollinsRollins" data-aos="zoom-in" className={styles.abtContainer}>
         <h1 className={styles.header1}>About Me</h1>
         <div className={styles.narration}>
-          I am a well-experienced web-developer with over two years of experience. I am hail from Nigeria, West
+          I am a well-experienced web-developer with over two years of experience. I hail from Nigeria, West
             Africa. I am a guy completely driven by passion, especially in the
             IT industries and these passions led me to learn to code. coding is
             an addiction for me and I am not curing myself off it anytime soon.
