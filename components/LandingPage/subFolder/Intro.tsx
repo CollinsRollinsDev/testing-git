@@ -86,7 +86,7 @@ I thrive with an open heart and willing to learn, relearn and unlearn to the lat
             </p>
           </div>
 
-          <a href="https://wa.link/v8yl64">
+          <a href="https://wa.link/gd07vk">
             <div data-aos="fade-right" className={styles.hire}>
               Whatsapp Me
             </div>
