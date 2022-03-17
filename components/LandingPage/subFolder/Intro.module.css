@@ -83,7 +83,7 @@
         font-weight: 700;
         font-style: italic;
         border-radius: 20px;
-        box-shadow: 1px 1px 5px black;
+        box-shadow: 0.5px 0.5px 3px black;
         color: var(--blueishText);
         cursor: pointer;
 }

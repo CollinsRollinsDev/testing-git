@@ -6,7 +6,7 @@
 .container{
     width: 100% !important;
     height: 65px;
-    box-shadow: 2px 2px 10px var(--blueish);
+    box-shadow: 1px 1px 10px var(--blueish);
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     display: flex;
