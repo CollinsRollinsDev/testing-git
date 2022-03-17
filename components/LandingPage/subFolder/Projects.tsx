@@ -105,7 +105,7 @@ const Projects = ({ isIPhone }: Incoming) => {
             imgSrc="/crudstack.png"
             imgAlt="crudstack from image collins rollins!!"
             title="A Complete NodeJs(Backend) CRUD/Authentication Web App!"
-            description={`I built this using vanilla React.Js with Typescript for frontend and Nodejs(Express) for the backend. Features includes, creating account in MongoDB database with passwords being perfectly encrypted, log in securely using jwt tokens and cookies, update existing user details, change user password, delete a user, logout, protected routes (You can't access some routes if not logged in) and darkmode! Despite this is a fully intended backend application, I am very curious about designs; so the UI is not left out!`}
+            description={`I built this using React.Js with Typescript for frontend and Nodejs(Express) for the backend. Features includes, creating account in MongoDB database with passwords being encrypted, log in securely using jwt tokens and cookies, update existing user details, change password, delete a user, logout, protected routes and darkmode! Despite this is a fully intended backend application, the UI is not left out!`}
             linkToSite={`https://crudstack-client-side.vercel.app/`}
           />
         </section>
