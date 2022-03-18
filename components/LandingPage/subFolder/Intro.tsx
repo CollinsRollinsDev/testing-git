@@ -77,12 +77,10 @@ const Intro = () => {
               
             </p>
 
-            <p>Using the skills and experiences I have gathered over the last couple of years to solving problems for businesses and similar industries is 
-my biggest dream.
+            <p>Using the skills and experience I have gathered over the last couple of years to solve problems for businesses and similar industries is my biggest dream.
             </p>
             <p>
-            I am also a voracious learner. When I'm not coding I'm either busy learning new technologies or improving on existing ways to solving problems.
-I thrive with an open heart and willing to learn, relearn and unlearn to the latest in standards.
+            I am also a voracious learner. When I'm not coding I'm either busy learning new technologies or improving on existing ways to solve problems. I thrive with an open heart and I am willing to learn, relearn and unlearn to the latest in standards. 
             </p>
           </div>
 
