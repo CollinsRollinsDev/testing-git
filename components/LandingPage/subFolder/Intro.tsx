@@ -150,6 +150,7 @@ const Intro = () => {
               quality={100}
               priority
             />
+            
           </div>
         </section>
       </section>
