@@ -56,6 +56,22 @@ const Projects = ({ isIPhone }: Incoming) => {
           />
 
           <EachProject
+            imgSrc="/ecomSite.png"
+            imgAlt="Collins Rollins Site"
+            title="GADGETS ECOMMERCE SITE"
+            description={`This is a fullstack ecommerce site that I build with NextJs. The designs are modern and It uses Sanity for CMS.`}
+            linkToSite={`https://futureecom.vercel.app`}
+          />
+
+          <EachProject
+            imgSrc="/wngs.png"
+            imgAlt="Collins Rollins Site"
+            title="BIT BOOTCAMP"
+            description={`This is a Full-Stack Bootcamp website with numerous features such as payment integration, scheduling appointments, comments, video courses, graph data etc. Stack used was MERN (NextJs as React framework)`}
+            linkToSite={`https://wngs.vercel.app/`}
+          />
+
+          <EachProject
             imgSrc="/scorelite.png"
             imgAlt="Collins Rollins Site"
             title="FOOTBALL HIGHLIGHTS WEBSITE"

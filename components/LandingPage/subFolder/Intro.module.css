@@ -133,10 +133,15 @@
     /* background-color: blue !important; */
 }
 .right .imgDiv{
-    height: 90% !important;
-    width: 90% !important;
-    /* background-color: red; */
+    min-height: 500px ;
+    min-width: 500px ;
+    max-height: 500px ;
+    max-width: 500px ;
     position: relative;
+}
+.right .imgDiv img{
+   height: 100%;
+   width: 100%;
 }
 .shortSpech p{
     margin-top: 12px;

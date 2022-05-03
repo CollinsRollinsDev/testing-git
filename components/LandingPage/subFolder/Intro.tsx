@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import styles from "./Intro.module.css";
 import Head from "next/head";
@@ -139,10 +140,14 @@ const Intro = () => {
         </section>
         <section className={styles.right}>
           <div data-aos="fade-right" className={styles.imgDiv}>
+            {/* <img src="/webpic2.png" alt="test" className={styles.img}  /> */}
             <Image
               src="/webpic2.png"
               alt=""
-              layout="fill"
+              // layout="fill"
+              width={500}
+              height={500}
+              quality={100}
               priority
             />
           </div>

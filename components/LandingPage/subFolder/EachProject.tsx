@@ -26,7 +26,7 @@ const EachProject = ({imgSrc, imgAlt, title, description, linkToSite}) => {
         </p>
       </div>
     </div>
-    <a href={linkToSite}>
+    <a href={linkToSite} target="_blank" rel="noreferrer" >
       <div className={styles.view}>
         <button>View</button>
       </div>
